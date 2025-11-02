@@ -5,7 +5,7 @@
     {
       "key":0,
       "name":"答對，你太棒了！",
-      "desc":"點擊繼續",
+      "desc":"點擊 '繼續'",
       "rules":[
         {
           "fastQuery":true,
@@ -17,7 +17,7 @@
     {
       "key":1,
       "name":"課程結束",
-      "desc":"點擊領取經驗",
+      "desc":"點擊 '領取經驗'",
       "rules":[
         {
           "fastQuery":true,
@@ -28,7 +28,7 @@
     },
     {
       "key":2,
-      "name":"課程結束後廣告(倒數)",
+      "name":"課程結束後廣告(靜音)",
       "desc":"關閉音量",
       "actionMaximum":1,
       "rules":[
@@ -54,12 +54,60 @@
     {
       "key":4,
       "name":"Super SPAM",
-      "desc":"點擊關閉",
+      "desc":"點擊 '不，謝謝'",
       "rules":[
         {
           "fastQuery":true,
           "activityIds":"com.duolingo.plus.purchaseflow.PlusPurchaseFlowActivity",
           "matches":"[vid=\"noThanksButton\"]"
+        }
+      ]
+    },
+    {
+      "key":5,
+      "name":"廣播課程結束",
+      "desc":"點擊 '領取經驗'",
+      "rules":[
+        {
+          "fastQuery":true,
+          "activityIds":"com.duolingo.duoradio.DuoRadioSessionActivity",
+          "matches":"[text=\"領取經驗\"]"
+        }
+      ]
+    },
+    {
+      "key":6,
+      "name":"Super SPAM 免費體驗",
+      "desc":"點擊X 按鈕",
+      "rules":[
+        {
+          "fastQuery":true,
+          "activityIds":"com.duolingo.plus.purchaseflow.PlusPurchaseFlowActivity",
+          "matches":"[vid=\"xButton\"]"
+        }
+      ]
+    },
+    {
+      "key":7,
+      "name":"排名上升",
+      "desc":"點擊 '繼續'",
+      "rules":[
+        {
+          "fastQuery":true,
+          "activityIds":"com.duolingo.duoradio.DuoRadioSessionActivity",
+          "matches":"[text=\"繼續\"]"
+        }
+      ]
+    },
+    {
+      "key":8,
+      "name":"成就徽章",
+      "desc":"點擊 '繼續'",
+      "rules":[
+        {
+          "fastQuery":true,
+          "activityIds":"com.duolingo.duoradio.DuoRadioSessionActivity",
+          "matches":"[text=\"繼續\"]"
         }
       ]
     }
