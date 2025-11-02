@@ -98,6 +98,18 @@
           "matches":"[text=\"繼續\"]"
         }
       ]
+    },
+    {
+      "key":8,
+      "name":"學習進度條",
+      "desc":"點擊 '了解分數詳情'",
+      "rules":[
+        {
+          "fastQuery":true,
+          "activityIds":"com.duolingo.session.SessionActivity",
+          "matches":"[text=\"了解分數詳情\"]"
+        }
+      ]
     }
   ]
 }
