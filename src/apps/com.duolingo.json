@@ -89,19 +89,7 @@
     },
     {
       "key":7,
-      "name":"排名上升",
-      "desc":"點擊 '繼續'",
-      "rules":[
-        {
-          "fastQuery":true,
-          "activityIds":"com.duolingo.duoradio.DuoRadioSessionActivity",
-          "matches":"[text=\"繼續\"]"
-        }
-      ]
-    },
-    {
-      "key":8,
-      "name":"成就徽章",
+      "name":"排名上升 & 成就徽章",
       "desc":"點擊 '繼續'",
       "rules":[
         {
