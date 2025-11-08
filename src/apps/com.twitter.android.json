@@ -1,0 +1,18 @@
+{
+  id: 'com.twitter.android',
+  name: 'X',
+  groups: [
+    {
+      key: 1,
+      name: '圖片內容警告',
+      desc: '點擊 \"顯示\"',
+      rules: [
+        {
+          fastQuery: true,
+          activityIds: 'com.twitter.app.main.MainActivity',
+          matches: '[text="顯示"]',
+        },
+      ],
+    },
+  ],
+}
