@@ -1,18 +1,21 @@
 {
-  id: 'com.twitter.android',
-  name: 'X',
-  groups: [
+  "id":"com.twitter.android",
+  "name":"X",
+  "groups":[
     {
-      key: 1,
-      name: '圖片內容警告',
-      desc: '點擊 \"顯示\"',
-      rules: [
+      "key":1,
+      "name":"圖片內容警告",
+      "desc":"點擊 \"顯示\"",
+      "rules":[
         {
-          fastQuery: true,
-          activityIds: 'com.twitter.app.main.MainActivity',
-          matches: '[text="顯示"]',
-        },
-      ],
-    },
-  ],
+          "fastQuery":true,
+          "activityIds":[
+            "com.twitter.app.main.MainActivity",
+            "com.twitter.app.profiles.ProfileActivity"
+          ],
+          "matches":"[text=\"顯示\"]"
+        }
+      ]
+    }
+  ]
 }
