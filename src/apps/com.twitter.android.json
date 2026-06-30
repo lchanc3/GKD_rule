@@ -11,7 +11,9 @@
           "fastQuery":true,
           "activityIds":[
             "com.twitter.app.main.MainActivity",
-            "com.twitter.app.profiles.ProfileActivity"
+            "com.twitter.app.profiles.ProfileActivity",
+            "com.twitter.tweetdetail.TweetDetailActivity",
+            ".search.implementation.results.SearchActivity"
           ],
           "matches":"[text=\"顯示\"]"
         }
